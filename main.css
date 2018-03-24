@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.navbar {
+background-color:green;
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-toggler{
+    background-color:white;
+    margin: 6px 0;
+}
+a {
+    text-decoration: none !important;
+    }
+.list-group img{
+  width: 10%;
+  padding-top: 10px;
+}
+
+.list-group-item img{
+    float: left;
+}
+.list-group-item h3{
+text-align: right; 
+display:inline-block;
+padding: 30px 35px;
+margin-top: 30px;
+}
+.light{
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    left: 0%;
+}
+.light img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.dark {
+    float: right;
+    border-color: #ccc;
+    background-color: #ddd;
+    border-radius: 5px;
+    left: 50%;   
+}
+
+@media only screen and  (min-width: 376px){
+     .dark {
+        float: right;
+}
+.light{
+    float: left;
+    left: auto;
+}
+
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+.badge1 {
+    
+    width: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%; /* may require vendor prefixes */
+    background : green;
+  }
